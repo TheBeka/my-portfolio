@@ -1,0 +1,51 @@
+.project {
+  border-left: 1px solid white;
+  padding-left: 12px;
+  margin: 24px 0;
+}
+
+.project_title {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.stack {
+  display: block;
+  margin-top: 12px;
+}
+
+.stack_item {
+  display: inline-block;
+  border: 1px solid white;
+  padding: 4px 24px;
+  margin: 0;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.project_image {
+  display: block;
+  margin-top: 12px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.download_button {
+  display: block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.0s, color 0.0s;
+  cursor: pointer;
+}
+
+.download_button:hover {
+  background-color: rgb(0, 153, 255);
+  color: white;
+}
